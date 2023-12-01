@@ -19,7 +19,7 @@ const VERSIONS = {
   'lodash-es': '^4.17.21',
   'ngx-bootstrap': '^6.2.0',
   'video.js': '^7.18.1',
-  'sunbird-quml-player-v9': '^4.9.7',
+  'sunbird-quml-player': '5.7.0',
   'videojs-http-source-selector': '>= 1.1.6',
   'videojs-contrib-quality-levels': '>= 2.1.0',
   "reflect-metadata": "^0.1.13"
@@ -51,7 +51,7 @@ export default function ngAdd(options: Schema): Rule {
     addPackageToPackageJson(tree, 'lodash-es', VERSIONS['lodash-es']);
     addPackageToPackageJson(tree, 'ngx-bootstrap', VERSIONS['ngx-bootstrap']);
     addPackageToPackageJson(tree, 'video.js', VERSIONS['video.js']);
-    addPackageToPackageJson(tree, '@project-sunbird/sunbird-quml-player-v9', VERSIONS['sunbird-quml-player-v9']);
+    addPackageToPackageJson(tree, '@project-sunbird/sunbird-quml-player', VERSIONS['sunbird-quml-player']);
     addPackageToPackageJson(tree, 'videojs-http-source-selector', VERSIONS['videojs-http-source-selector']);
     addPackageToPackageJson(tree, 'videojs-contrib-quality-levels', VERSIONS['videojs-contrib-quality-levels']);
     context.logger.info('Installing dependencies...');
