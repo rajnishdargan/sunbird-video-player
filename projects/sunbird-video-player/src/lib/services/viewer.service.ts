@@ -4,7 +4,7 @@ import { PlayerConfig, Transcripts } from '../playerInterfaces';
 import { SunbirdVideoPlayerService } from '../sunbird-video-player.service';
 import { UtilService } from './util.service';
 import { errorCode , errorMessage } from '@project-sunbird/sunbird-player-sdk-v9';
-import { QuestionCursor } from '@project-sunbird/sunbird-quml-player-v9';
+import { QuestionCursor } from '@project-sunbird/sunbird-quml-player';
 import { of } from 'rxjs';
 import { map } from 'rxjs/operators';
 import * as _ from 'lodash-es';

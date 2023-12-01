@@ -6,7 +6,7 @@ import { ViewerService } from './services/viewer.service';
 import { HttpClientModule } from '@angular/common/http';
 import { mockData } from './sunbird-video-player.component.spec.data';
 import { ErrorService } from '@project-sunbird/sunbird-player-sdk-v9';
-import { QuestionCursor } from '@project-sunbird/sunbird-quml-player-v9';
+import { QuestionCursor } from '@project-sunbird/sunbird-quml-player';
 import { QuestionCursorImplementationService } from 'src/app/question-cursor-implementation.service';
 
 describe('SunbirdVideoPlayerComponent', () => {
