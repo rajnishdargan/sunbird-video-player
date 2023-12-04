@@ -51,7 +51,7 @@ export default function ngAdd(options: Schema): Rule {
     addPackageToPackageJson(tree, 'lodash-es', VERSIONS['lodash-es']);
     addPackageToPackageJson(tree, 'ngx-bootstrap', VERSIONS['ngx-bootstrap']);
     addPackageToPackageJson(tree, 'video.js', VERSIONS['video.js']);
-    addPackageToPackageJson(tree, '@project-sunbird/sunbird-quml-player-v9', VERSIONS['sunbird-quml-player-v9']);
+    addPackageToPackageJson(tree, '@project-sunbird/sunbird-quml-player', VERSIONS['sunbird-quml-player-v9']);
     addPackageToPackageJson(tree, 'videojs-http-source-selector', VERSIONS['videojs-http-source-selector']);
     addPackageToPackageJson(tree, 'videojs-contrib-quality-levels', VERSIONS['videojs-contrib-quality-levels']);
     context.logger.info('Installing dependencies...');

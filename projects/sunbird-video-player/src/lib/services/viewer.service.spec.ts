@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 import { ViewerService } from './viewer.service';
 import { SunbirdVideoPlayerService } from '../sunbird-video-player.service';
-import { QuestionCursor } from '@project-sunbird/sunbird-quml-player-v9';
+import { QuestionCursor } from '@project-sunbird/sunbird-quml-player';
 import { QuestionCursorImplementationService } from 'src/app/question-cursor-implementation.service';
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { mockData } from './viewer.service.spec.data';

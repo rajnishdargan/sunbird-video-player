@@ -6,7 +6,7 @@
     "@angular/core": "15.2.10",
     "@project-sunbird/client-services": "^3.4.11",
     "@project-sunbird/sb-styles": "0.0.7",
-    "@project-sunbird/sunbird-quml-player-v9": "4.9.7",
+    "@project-sunbird/sunbird-quml-player": "5.7.0",
     "video.js": "7.18.1",
     "videojs-contrib-quality-levels": ">= 2.1.0",
     "videojs-http-source-selector": ">= 1.1.6"
