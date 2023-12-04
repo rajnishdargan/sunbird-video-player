@@ -326,7 +326,7 @@ If you prefer not to use schematics or want to add `sunbird-video-player-v9` to 
 
 npm install  @project-sunbird/sunbird-video-player-v9  --save
 
-npm install  @project-sunbird/sunbird-quml-player-v9  --save
+npm install  @project-sunbird/sunbird-quml-player  --save
 
 npm install  @project-sunbird/sb-styles  --save
 
@@ -391,7 +391,7 @@ Add following under architect.build.assets
 
 "glob": "**/*",
 
-"input": "node_modules/@project-sunbird/sunbird-quml-player-v9/lib/assets/",
+"input": "node_modules/@project-sunbird/sunbird-quml-player/lib/assets/",
 
 "output": "/assets/"
 
@@ -453,7 +453,7 @@ Import the NgModule where you want to use. Also create a [question-cursor-implem
 
 import { SunbirdVideoPlayerModule } from '@project-sunbird/sunbird-video-player-v9';
 
-import { QuestionCursor } from '@project-sunbird/sunbird-quml-player-v9';
+import { QuestionCursor } from '@project-sunbird/sunbird-quml-player';
 
 import { QuestionCursorImplementationService } from './question-cursor-implementation.service';
 

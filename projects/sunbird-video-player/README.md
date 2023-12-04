@@ -163,7 +163,7 @@ If you prefer not to use schematics or want to add `sunbird-video-player-v9` to 
 
   ```bash
     npm install @project-sunbird/sunbird-video-player-v9 --save
-    npm install @project-sunbird/sunbird-quml-player-v9 --save
+    npm install @project-sunbird/sunbird-quml-player --save
     npm install @project-sunbird/sb-styles --save
     npm install @project-sunbird/client-services --save
     npm install lodash-es --save
@@ -218,7 +218,7 @@ If you prefer not to use schematics or want to add `sunbird-video-player-v9` to 
 			    },
           {
                 "glob": "**/*",
-                "input": "node_modules/@project-sunbird/sunbird-quml-player-v9/lib/assets/",
+                "input": "node_modules/@project-sunbird/sunbird-quml-player/lib/assets/",
                 "output": "/assets/"
           }
 		    
@@ -254,7 +254,7 @@ If you prefer not to use schematics or want to add `sunbird-video-player-v9` to 
 Import the NgModule where you want to use. Also create a [question-cursor-implementation.service](../../src/app/question-cursor-implementation.service.ts)
 ```  
     import { SunbirdVideoPlayerModule } from '@project-sunbird/sunbird-video-player-v9';
-    import { QuestionCursor } from '@project-sunbird/sunbird-quml-player-v9';
+    import { QuestionCursor } from '@project-sunbird/sunbird-quml-player';
     import { QuestionCursorImplementationService } from './question-cursor-implementation.service';
 
     
