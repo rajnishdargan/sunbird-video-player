@@ -33,7 +33,7 @@
     "@project-sunbird/client-services": "^4.0.1",
     "@project-sunbird/sb-styles": "0.0.7",
     "@project-sunbird/sunbird-player-sdk-v9": "^5.1.0",
-    "@project-sunbird/sunbird-quml-player": "5.7.0",
+    "@project-sunbird/sunbird-quml-player": "7.0.0-beta.3",
     "@project-sunbird/telemetry-sdk": "0.0.26",
     "core-js": "^2.5.4",
     "document-register-element": "^1.7.2",
